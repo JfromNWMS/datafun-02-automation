@@ -54,3 +54,115 @@ Standard Deviation of Course Scores:  22.52
 #####################################
 2025-05-12 00:31:41.602 | INFO     | __main__:main:222 - # Completed execution of main()
 2025-05-12 00:31:41.602 | INFO     | __main__:main:223 - #####################################
+2025-05-15 10:48:53.763 | INFO     | __main__:<module>:36 - Logger loaded.
+2025-05-15 10:48:53.763 | INFO     | __main__:main:190 - #####################################
+2025-05-15 10:48:53.764 | INFO     | __main__:main:191 - # Starting execution of main()
+2025-05-15 10:48:53.764 | INFO     | __main__:main:192 - #####################################
+
+2025-05-15 10:48:53.764 | INFO     | __main__:main:194 - Byline: 
+---------------------------------------------------------
+Graduate Applicant Basic Analytics
+---------------------------------------------------------
+Current Student of Mathematics:       True
+Years as a Mathematics Student:       20
+Favorite Irrational Number:           1.618...
+Last Three Math Courses:              Abstract Algebra, Calculus 7, Euclidian Geometry
+Final Scores of Courses:              74, 53, 98
+Minimum Course Score:                 53
+Maximum Course Score:                 98
+Mean Course Score:                    75.0
+Standard Deviation of Course Scores:  22.52
+
+2025-05-15 10:48:53.765 | INFO     | __main__:create_folders_for_range:72 - FUNCTION: create_folders_for_range()
+2025-05-15 10:48:53.765 | INFO     | __main__:create_folders_for_range:73 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-05-15 10:48:53.766 | INFO     | __main__:create_folders_for_range:78 - Created folder: C:\Repos\datafun-02-automation\2020
+2025-05-15 10:48:53.767 | INFO     | __main__:create_folders_for_range:78 - Created folder: C:\Repos\datafun-02-automation\2021
+2025-05-15 10:48:53.767 | INFO     | __main__:create_folders_for_range:78 - Created folder: C:\Repos\datafun-02-automation\2022
+2025-05-15 10:48:53.768 | INFO     | __main__:create_folders_for_range:78 - Created folder: C:\Repos\datafun-02-automation\2023
+2025-05-15 10:48:53.769 | INFO     | __main__:create_folders_from_list:96 - FUNCTION: create_folders_from_list()
+2025-05-15 10:48:53.769 | INFO     | __main__:create_folders_from_list:97 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-05-15 10:48:53.770 | INFO     | __main__:create_folders_from_list:102 - Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-05-15 10:48:53.771 | INFO     | __main__:create_folders_from_list:102 - Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-05-15 10:48:53.771 | INFO     | __main__:create_folders_from_list:102 - Created folder: C:\Repos\datafun-02-automation\data-json
+2025-05-15 10:48:53.772 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:122 - FUNCTION: create_prefixed_folders()
+2025-05-15 10:48:53.772 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:123 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-05-15 10:48:53.773 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:125 - Created folder: C:\Repos\datafun-02-automation\output-csv
+2025-05-15 10:48:53.773 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:125 - Created folder: C:\Repos\datafun-02-automation\output-excel
+2025-05-15 10:48:53.774 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:125 - Created folder: C:\Repos\datafun-02-automation\output-json
+2025-05-15 10:48:53.775 | INFO     | __main__:create_folders_periodically:142 - FUNCTION: create_folders_periodically()
+2025-05-15 10:48:53.775 | INFO     | __main__:create_folders_periodically:143 - PARAMETER: duration_seconds = 5
+2025-05-15 10:48:53.776 | INFO     | __main__:create_folders_periodically:148 - Created folder: C:\Repos\datafun-02-automation\csv
+2025-05-15 10:48:53.776 | INFO     | __main__:create_folders_periodically:149 - Sleeping for 5 second(s).
+2025-05-15 10:48:58.778 | INFO     | __main__:create_folders_periodically:148 - Created folder: C:\Repos\datafun-02-automation\excel
+2025-05-15 10:48:58.779 | INFO     | __main__:create_folders_periodically:149 - Sleeping for 5 second(s).
+2025-05-15 10:49:03.781 | INFO     | __main__:create_folders_periodically:148 - Created folder: C:\Repos\datafun-02-automation\json
+2025-05-15 10:49:03.781 | INFO     | __main__:create_folders_periodically:149 - Sleeping for 5 second(s).
+2025-05-15 10:49:08.782 | INFO     | __main__:create_standardized_folders:169 - FUNCTION: create_standardized_folders()
+2025-05-15 10:49:08.783 | INFO     | __main__:create_standardized_folders:170 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-05-15 10:49:08.783 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\northamerica
+2025-05-15 10:49:08.784 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\southamerica
+2025-05-15 10:49:08.785 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\europe
+2025-05-15 10:49:08.785 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\asia
+2025-05-15 10:49:08.786 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\africa
+2025-05-15 10:49:08.787 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\oceania
+2025-05-15 10:49:08.788 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\middleeast
+2025-05-15 10:49:08.788 | INFO     | __main__:main:215 - 
+#####################################
+2025-05-15 10:49:08.788 | INFO     | __main__:main:216 - # Completed execution of main()
+2025-05-15 10:49:08.789 | INFO     | __main__:main:217 - #####################################
+2025-05-15 10:51:20.338 | INFO     | __main__:<module>:36 - Logger loaded.
+2025-05-15 10:51:20.339 | INFO     | __main__:main:190 - #####################################
+2025-05-15 10:51:20.339 | INFO     | __main__:main:191 - # Starting execution of main()
+2025-05-15 10:51:20.339 | INFO     | __main__:main:192 - #####################################
+
+2025-05-15 10:51:20.339 | INFO     | __main__:main:194 - Byline: 
+---------------------------------------------------------
+Graduate Applicant Basic Analytics
+---------------------------------------------------------
+Current Student of Mathematics:       True
+Years as a Mathematics Student:       20
+Favorite Irrational Number:           1.618...
+Last Three Math Courses:              Abstract Algebra, Calculus 7, Euclidian Geometry
+Final Scores of Courses:              74, 53, 98
+Minimum Course Score:                 53
+Maximum Course Score:                 98
+Mean Course Score:                    75.0
+Standard Deviation of Course Scores:  22.52
+
+2025-05-15 10:51:20.340 | INFO     | __main__:create_folders_for_range:72 - FUNCTION: create_folders_for_range()
+2025-05-15 10:51:20.340 | INFO     | __main__:create_folders_for_range:73 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-05-15 10:51:20.341 | INFO     | __main__:create_folders_for_range:78 - Created folder: C:\Repos\datafun-02-automation\2020
+2025-05-15 10:51:20.341 | INFO     | __main__:create_folders_for_range:78 - Created folder: C:\Repos\datafun-02-automation\2021
+2025-05-15 10:51:20.341 | INFO     | __main__:create_folders_for_range:78 - Created folder: C:\Repos\datafun-02-automation\2022
+2025-05-15 10:51:20.341 | INFO     | __main__:create_folders_for_range:78 - Created folder: C:\Repos\datafun-02-automation\2023
+2025-05-15 10:51:20.341 | INFO     | __main__:create_folders_from_list:96 - FUNCTION: create_folders_from_list()
+2025-05-15 10:51:20.341 | INFO     | __main__:create_folders_from_list:97 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-05-15 10:51:20.342 | INFO     | __main__:create_folders_from_list:102 - Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-05-15 10:51:20.342 | INFO     | __main__:create_folders_from_list:102 - Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-05-15 10:51:20.342 | INFO     | __main__:create_folders_from_list:102 - Created folder: C:\Repos\datafun-02-automation\data-json
+2025-05-15 10:51:20.342 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:122 - FUNCTION: create_prefixed_folders()
+2025-05-15 10:51:20.342 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:123 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-05-15 10:51:20.342 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:125 - Created folder: C:\Repos\datafun-02-automation\output-csv
+2025-05-15 10:51:20.343 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:125 - Created folder: C:\Repos\datafun-02-automation\output-excel
+2025-05-15 10:51:20.343 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:125 - Created folder: C:\Repos\datafun-02-automation\output-json
+2025-05-15 10:51:20.343 | INFO     | __main__:create_folders_periodically:142 - FUNCTION: create_folders_periodically()
+2025-05-15 10:51:20.343 | INFO     | __main__:create_folders_periodically:143 - PARAMETER: duration_seconds = 5
+2025-05-15 10:51:20.343 | INFO     | __main__:create_folders_periodically:148 - Created folder: C:\Repos\datafun-02-automation\csv
+2025-05-15 10:51:20.343 | INFO     | __main__:create_folders_periodically:149 - Sleeping for 5 second(s).
+2025-05-15 10:51:25.345 | INFO     | __main__:create_folders_periodically:148 - Created folder: C:\Repos\datafun-02-automation\excel
+2025-05-15 10:51:25.346 | INFO     | __main__:create_folders_periodically:149 - Sleeping for 5 second(s).
+2025-05-15 10:51:30.351 | INFO     | __main__:create_folders_periodically:148 - Created folder: C:\Repos\datafun-02-automation\json
+2025-05-15 10:51:30.352 | INFO     | __main__:create_folders_periodically:149 - Sleeping for 5 second(s).
+2025-05-15 10:51:35.353 | INFO     | __main__:create_standardized_folders:169 - FUNCTION: create_standardized_folders()
+2025-05-15 10:51:35.353 | INFO     | __main__:create_standardized_folders:170 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-05-15 10:51:35.354 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\northamerica
+2025-05-15 10:51:35.354 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\southamerica
+2025-05-15 10:51:35.355 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\europe
+2025-05-15 10:51:35.355 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\asia
+2025-05-15 10:51:35.356 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\africa
+2025-05-15 10:51:35.356 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\oceania
+2025-05-15 10:51:35.356 | INFO     | __main__:create_standardized_folders:181 - Created folder: C:\Repos\datafun-02-automation\middleeast
+2025-05-15 10:51:35.357 | INFO     | __main__:main:215 - 
+#####################################
+2025-05-15 10:51:35.357 | INFO     | __main__:main:216 - # Completed execution of main()
+2025-05-15 10:51:35.357 | INFO     | __main__:main:217 - #####################################
